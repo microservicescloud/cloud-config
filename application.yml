@@ -2,6 +2,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: ${EUREKA_SERVER:http://registry:8761/eureka}
-cs:
-  product:
-    greeting: cloud config give a product
+
+product:
+  greeting: cloud config give a product
